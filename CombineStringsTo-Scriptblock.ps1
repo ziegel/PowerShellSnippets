@@ -10,7 +10,7 @@ function CombineStringsTo-Scriptblock ()
     [string]$command2
     )
 
-    $scriptblock1 = [scriptblock]::Criceate($($command1+$command2))
+    $scriptblock1 = [scriptblock]::Create($($command1+$command2))
 
     return $scriptblock1
 }
